@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    background: darkslategray;
+    margin-bottom: 48px;
+}
+
+.main-logo {
+    width: 15%;
+    padding: 10px 45px;
+}
+
+.main-menu {
+    width: 92%;
+}
+
+.main-logo img {
+    max-width: 100%;
+    width: 80px;
+    height: 60px;
+}
+
+.main-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-menu {}
+
+.main-menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 30px 10px 30px;
+    font-size: 17px;
+    color: white;
+}
+
+.fotter {
+    width: 1200px;
+    margin: auto;
+    background: darkgray;
+    padding: 50px 50px;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+
+.fotter-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 0px 38px;
+}
+
+.logo {
+    width: 30%;
+    padding: 5px 0px;
+}
+
+.Company {
+    width: 20%;
+}
+
+.Recent.Projects {
+    width: 19%;
+}
+
+.Get.In.Touch {
+    width: 16%;
+}
+
+.logo img {
+    max-width: 100%;
+    width: 80px;
+    height: 60px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.logo p a {
+    font-size: 16px;
+    text-decoration: none;
+    color: seashell;
+    line-height: 162%;
+}
+
+.Company h1 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 13px;
+}
+
+.Company p a {
+    font-size: 16px;
+    text-decoration: none;
+    color: seashell;
+    display: block;
+    padding: 4px 0px;
+}
+
+.Recent.Projects h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.Get.In.Touch h1 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 13px;
+}
+
+.Get.In.Touch p a {
+    font-size: 16px;
+    text-decoration: none;
+    color: seashell;
+    line-height: 166%;
+}
+
+.fotter-box-1 {
+    width: 1200px;
+    background: darkgrey;
+    margin: auto;
+}
+
+.fotter-box-1 p {
+    font-size: 16px;
+    color: seashell;
+    text-align: center;
+    padding: 30px;
+}
+
+.my-projects {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.my-projects h3 {
+    font-size: 33px;
+    padding-bottom: 21px;
+    color: black;
+}
+
+.my-projects p {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 46px;
+}
+
+
+.projects-box {
+    width: 1200px;
+    margin: auto;
+    background: antiquewhite;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.projects-box-item {
+    width: 33%;
+    height: 300px;
+    background: green;
+}
+
+.projects-box-item img {
+    max-width: 100%;
+}
