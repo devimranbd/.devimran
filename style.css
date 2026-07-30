@@ -158,8 +158,8 @@
 .projects-box {
     width: 1200px;
     margin: auto;
-    background: antiquewhite;
-    height: 1000px;
+    /* background: antiquewhite; */
+    height: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -168,8 +168,9 @@
 
 .projects-box-item {
     width: 33%;
-    height: 300px;
-    background: green;
+    height: auto;
+    /* background: green; */
+    margin-bottom: 25px;
 }
 
 .projects-box-item img {
